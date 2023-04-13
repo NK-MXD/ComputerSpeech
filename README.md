@@ -28,3 +28,12 @@ TODO3：将yes1和yes3两个音频帧与帧之间的对应关系画出来
 1. TODO2 之中打印的距离
 2. TODO3 之中输出的图表
 
+## 实验3: FFNNLN
+
+1. 根据提供的语料库和参考代码，构建FFNN语言模型，提交运行结果截图。使用tensorboard可视化模型在训练集和验证集上的loss曲线，以每个epoch为单位。
+2. 使用训练好的语言模型，计算以下两句话的困惑度：“Jane went to the store”和“store to Jane went the”改进模型
+
+> 参考资料: 
+> + 论文  https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf
+> + 博客  https://blog.csdn.net/blmoistawinde/article/details/104966127
+
