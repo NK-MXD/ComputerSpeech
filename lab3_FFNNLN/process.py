@@ -53,8 +53,8 @@ def read_dataset(filename, add_vocab):
       yield [get_wid(w2i, x, add_vocab) for x in line.strip().split(" ")]
 
 # Read in the data
-train = list(read_dataset("../data/ptb-text/train.txt", add_vocab=True))
-dev = list(read_dataset("../data/ptb-text/valid.txt", add_vocab=False))
+train = list(read_dataset("data/train.txt", add_vocab=True))
+dev = list(read_dataset("data/valid.txt", add_vocab=False))
 i2w = {v: k for k, v in w2i.items()}
 nwords = len(w2i)
 print(nwords)
